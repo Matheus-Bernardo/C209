@@ -1,0 +1,26 @@
+* Gravação do vídeo
+ - Gravar um vídeo lendo o texto base e salvar em MP4
+
+* Carregar o vídeo
+  -  Usar a biblioteca moviepy para carregar o vídeo original no notebook.
+
+*Processar o vídeo
+ -Inverter a imagem no eixo:
+    A cada 20 segundos, alterar a orientação da imagem para ser espelhada (horizontalmente ou verticalmente).
+
+ -Cortar trechos específicos:
+   Após o primeiro minuto (60 segundos), cortar o vídeo para remover os 20 segundos do meio (do segundo 60 ao segundo 80).
+
+ -Reinserir o trecho cortado:
+   Adicionar o trecho cortado ao final do vídeo.
+
+* Processar o áudio 
+ -Reduzir o volume gradativamente:
+    Usar moviepy ou pydub para manipular o áudio do vídeo.
+    O volume deve ser reduzido gradativamente, atingindo o silêncio total nos últimos 10 segundos.
+
+* Renderizar o vídeo final
+ - Combinar as alterações de vídeo e áudio.
+ - Renderizar o vídeo final e salve no mesmo formato do original.
+
+* Salvar e compartilhar
